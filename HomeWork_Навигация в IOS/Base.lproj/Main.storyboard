@@ -179,19 +179,19 @@
         <!--Info View Controller-->
         <scene sceneID="ysc-Hh-X3T">
             <objects>
-                <viewController id="K8c-rK-El0" customClass="InfoViewController" sceneMemberID="viewController">
+                <viewController id="K8c-rK-El0" customClass="InfoViewController" customModule="HomeWork_Навигация_в_IOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MaW-u2-Xr4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vYp-71-eyz">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vYp-71-eyz">
                                 <rect key="frame" x="125" y="402" width="179" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="TCe-Qp-Y6n" kind="show" id="8We-35-wbL"/>
+                                    <action selector="Button:" destination="K8c-rK-El0" eventType="touchUpInside" id="HV9-3C-pnh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -203,22 +203,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10V-xE-Cgz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5082.608695652174" y="-985.04464285714278"/>
-        </scene>
-        <!--Alert View Controller-->
-        <scene sceneID="I5R-VR-dyQ">
-            <objects>
-                <viewController id="TCe-Qp-Y6n" customClass="UIAlertViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="CF5-xN-stn">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="xHB-DE-JNJ"/>
-                        <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="8Wp-l9-3z3"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vd3-ll-HHH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5908" y="-973"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="kvD-oY-1v0">

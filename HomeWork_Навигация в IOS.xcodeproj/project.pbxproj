@@ -18,6 +18,7 @@
 		EEF01BE22657B75C00B2456C /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF01BE12657B75C00B2456C /* FeedViewController.swift */; };
 		EEF01BE72657BAB000B2456C /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF01BE62657BAB000B2456C /* PostViewController.swift */; };
 		EEF01BEF2657D90000B2456C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF01BEE2657D90000B2456C /* Post.swift */; };
+		EEF01BFA265D78CD00B2456C /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF01BF9265D78CD00B2456C /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		EEF01BE12657B75C00B2456C /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		EEF01BE62657BAB000B2456C /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		EEF01BEE2657D90000B2456C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		EEF01BF9265D78CD00B2456C /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				EEF01BB02656D84000B2456C /* SceneDelegate.swift */,
 				EEF01BB22656D84000B2456C /* ViewController.swift */,
 				EEF01BB42656D84000B2456C /* Main.storyboard */,
+				EEF01BF9265D78CD00B2456C /* InfoViewController.swift */,
 				EEF01BE12657B75C00B2456C /* FeedViewController.swift */,
 				EEF01BE62657BAB000B2456C /* PostViewController.swift */,
 				EEF01BEE2657D90000B2456C /* Post.swift */,
@@ -270,6 +273,7 @@
 				EEF01BB32656D84000B2456C /* ViewController.swift in Sources */,
 				EEF01BAF2656D84000B2456C /* AppDelegate.swift in Sources */,
 				EEF01BE22657B75C00B2456C /* FeedViewController.swift in Sources */,
+				EEF01BFA265D78CD00B2456C /* InfoViewController.swift in Sources */,
 				EEF01BEF2657D90000B2456C /* Post.swift in Sources */,
 				EEF01BB12656D84000B2456C /* SceneDelegate.swift in Sources */,
 				EEF01BE72657BAB000B2456C /* PostViewController.swift in Sources */,
