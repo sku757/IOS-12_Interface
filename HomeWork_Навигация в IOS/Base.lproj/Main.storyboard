@@ -167,7 +167,7 @@
                         <barButtonItem key="rightBarButtonItem" title="Item" image="note" catalog="system" id="i1E-3X-aOh">
                             <color key="tintColor" systemColor="systemIndigoColor"/>
                             <connections>
-                                <segue destination="K8c-rK-El0" kind="show" id="Bo2-hJ-Kxn"/>
+                                <segue destination="K8c-rK-El0" kind="presentation" id="Bo2-hJ-Kxn"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -181,7 +181,7 @@
             <objects>
                 <viewController id="K8c-rK-El0" customClass="InfoViewController" customModule="HomeWork_Навигация_в_IOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MaW-u2-Xr4">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vYp-71-eyz">
