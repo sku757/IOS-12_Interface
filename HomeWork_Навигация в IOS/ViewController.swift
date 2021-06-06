@@ -8,8 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-    struct Post {
-        var title:String
-    }
+  
 }
 
